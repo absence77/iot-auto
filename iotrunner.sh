@@ -34,7 +34,7 @@ sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(l
 sudo apt-get update && sudo apt-get install -y terraform
 
 echo -e "${YELLOW}Cloning repository...${NC}"
-git clone https://github.com/rzashakh/iot-stack.git
+git clone https://github.com/absence77/iot-auto.git
 
 cd iot-stack
 
