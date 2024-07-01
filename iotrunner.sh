@@ -36,7 +36,7 @@ sudo apt-get update && sudo apt-get install -y terraform
 echo -e "${YELLOW}Cloning repository...${NC}"
 git clone https://github.com/absence77/iot-auto.git
 
-cd iot-stack
+cd iot-auto
 
 sed -i "s/token = \"dop_v1_test\"/token = \"$DIGITALOCEAN_TOKEN\"/" main.tf
 echo -e "${GREEN}Updated main.tf with the provided DigitalOcean token.${NC}"
